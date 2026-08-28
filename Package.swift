@@ -15,7 +15,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(path: "../daashi-widget-foundation")
+        .package(url: "https://github.com/hartakji/daashi-widget-foundation", from: "1.0.0")
     ],
     targets: [
         .target(
