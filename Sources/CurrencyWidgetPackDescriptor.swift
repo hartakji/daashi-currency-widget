@@ -10,10 +10,6 @@ import SwiftUI
 
 public struct CurrencyWidgetPackDescriptor: WidgetPackDescriptor {
     
-    public let supportedComponentIdentifiers = [
-        ExchangeRateConfig.componentIdentifier
-    ]
-    
     public static var packInfo: WidgetPackInfo {
         WidgetPackInfo(
             name: "Currency Widget",

@@ -1,6 +1,6 @@
 //
 //  ExchangeRates.swift
-//  BasicModulePackage
+//  CurrencyWidget
 //
 //  Created by Jean DAHER on 12/04/2025.
 //

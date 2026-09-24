@@ -77,14 +77,15 @@ struct ExchangeRateConfiguratorView: View {
                     }
                 }
             }
-            .navigationBarItems(trailing: HStack {
-                Button(action: {
-                    onSave(config)
-                },
-                       label: {
-                    Text("Save")
-                })
-            })
+            .toolbar {
+                ToolbarItemGroup(placement: .primaryAction) {
+                    Button {
+                        onSave(config)
+                    } label: {
+                        Text("Save")
+                    }
+                }
+            }
         }
     }
 }
